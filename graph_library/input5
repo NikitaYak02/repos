@@ -1,0 +1,18 @@
+AddEdge 1 2 5
+AddEdge 1 3 1
+AddEdge 3 4 3
+AddEdge 3 5 1
+AddEdge 3 2 4
+AddEdge 4 5 1
+AddEdge 5 2 3
+AddEdge 4 2 1
+PrintGraph
+AddVertex 5
+PrintGraph
+DeleteVertex 1
+PrintGraph
+AddVertex 5
+PrintGraph
+AddVertex 6
+PrintGraph
+Dijkstra 1 2

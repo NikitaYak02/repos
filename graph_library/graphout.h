@@ -1,0 +1,1 @@
+void printGraph(struct Graph* graph);

@@ -1,0 +1,17 @@
+AddEdge 1 2 5
+AddEdge 1 3 1
+AddEdge 3 4 3
+AddEdge 3 5 1
+AddEdge 3 2 4
+AddEdge 4 5 1
+AddEdge 5 2 3
+AddEdge 4 2 1
+DeleteEdge 10 2
+DeleteEdge 1 5
+EdgePointer 1 2
+EdgePointer 1 4
+EdgePointer 10 11
+PrintGraph
+DeleteEdge 2 4
+PrintGraph
+Dijkstra 1 2

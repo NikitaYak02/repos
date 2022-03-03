@@ -1,0 +1,15 @@
+AddEdge 1 2 5
+AddEdge 1 3 1
+AddEdge 3 4 3
+AddEdge 3 5 1
+AddEdge 3 2 4
+AddEdge 4 5 1
+AddEdge 5 2 3
+AddEdge 4 2 1
+Dijkstra 1 2
+PrintGraph
+DeleteEdge 4 5
+Dijkstra 1 2
+PrintGraph
+DeleteGraph
+Dijkstra 1 2
